@@ -80,6 +80,7 @@ class _DonutState extends State<Donut> with TickerProviderStateMixin {
     );
   }
 
+  // Calculations for the rotation and designing of the donut
   donutFunction() async {
     double i, j;
     b = List.generate(1760, (index) => ' ');
